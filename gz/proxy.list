@@ -1,7 +1,7 @@
 ﻿################################################################
 # 分流作用：修正某些网站需要代理才能打开
 
-# 更新时间：2025.05.6
+# 更新时间：2025.06.18
 # 策略选择：代理 proty
 
 # > talkatone
@@ -246,7 +246,11 @@ USER-AGENT,TVer-Release*,proxy
 USER-AGENT,TaiwanGood*,proxy
 USER-AGENT,encoreTVB*,proxy
 USER-AGENT,mytv*,proxy
+
 # > 其它修正
+
+host-wildcard, *.workers.dev, proxy
+host-wildcard, *.pages.dev, proxy
 host, kuxingge.serv00.net, proxy
 host-wildcard, *.chen168.ggff.net, proxy
 host-wildcard, *.chen168.workers.dev, proxy
