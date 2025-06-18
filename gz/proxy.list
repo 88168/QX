@@ -251,7 +251,7 @@ USER-AGENT,mytv*,proxy
 
 USER-AGENT,*.workers.dev, proxy
 host-wildcard, *.tianxiakuxing.workers.dev, proxy
-host-wildcard, *.workers.dev, proxy
+USER-AGENT, *.pages.dev, proxy
 host, am-3bp.pages.dev, proxy
 host, kuxingge.serv00.net, proxy
 host-wildcard, *.chen168.ggff.net, proxy
