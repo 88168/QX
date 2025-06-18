@@ -124,7 +124,7 @@ host,outlivecloud-cdn.ysp.cctv.cn, direct
 
 # > 其他分流修正
 
-host-wildcard, *.pages.dev, direct
+
 host, havoc.app, direct
 host-wildcard, *.750319.xyz, direct
 host, kkb.9901158.xyz, direct
