@@ -250,7 +250,7 @@ USER-AGENT,mytv*,proxy
 # > 其它修正
 
 host-wildcard, *.workers.dev, proxy
-host-wildcard, *.pages.dev, proxy
+
 host, kuxingge.serv00.net, proxy
 host-wildcard, *.chen168.ggff.net, proxy
 host-wildcard, *.chen168.workers.dev, proxy
