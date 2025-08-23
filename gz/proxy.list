@@ -249,7 +249,7 @@ USER-AGENT,mytv*,proxy
 
 # > 其它修正
 
-
+host,xingba222.com,proxy
 host, zd.750319.xyz, proxy
 host, yg.vless.750319.xyz, proxy
 USER-AGENT,*.workers.dev, proxy
