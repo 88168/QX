@@ -11,6 +11,10 @@
 # > "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
 #############################################
 
+
+# 农行代理检测
+
+host,msmp.abchina.com.cn,reject
 # talkatone
 host,ads.inmobi.com,reject
 host,tappx.com,reject
