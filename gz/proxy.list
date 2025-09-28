@@ -249,9 +249,14 @@ USER-AGENT,mytv*,proxy
 
 # > 其它修正
 
+host, host.750319.xyz, proxy
+host, dyj.750319.xyz, proxy
+host, cf.750319.xyz, proxy
+host, gh.750319.xyz, proxy
 host,xingba222.com,proxy
-host, zd.750319.xyz, proxy
+host, 988.tianxiakuxing.workers.dev, proxy
 host, yg.vless.750319.xyz, proxy
+host, zd.750319.xyz, proxy
 USER-AGENT,*.workers.dev, proxy
 host-wildcard, *.tianxiakuxing.workers.dev, proxy
 USER-AGENT, *.pages.dev, proxy
