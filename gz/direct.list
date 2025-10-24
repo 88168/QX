@@ -124,6 +124,9 @@ host, outlivecloud-cdn.ysp.cctv.cn, direct
 
 # > 其他分流修正
 
+host, hbbdylib.wepush.top, direct
+host, kms.cx, direct
+host, yg.one, direct
 host, web.freecloud.ltd, direct
 host, convertio.co, direct
 host, etempmail.com, direct
