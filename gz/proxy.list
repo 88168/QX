@@ -1,7 +1,7 @@
 ﻿################################################################
 # 分流作用：修正某些网站需要代理才能打开
 
-# 更新时间：2025.08.23
+# 更新时间：2025.10.24
 # 策略选择：代理 proty
 
 # > talkatone
@@ -249,6 +249,8 @@ USER-AGENT,mytv*,proxy
 
 # > 其它修正
 
+
+host, amemv.com, proxy
 host, host.750319.xyz, proxy
 host, dyj.750319.xyz, proxy
 host, cf.750319.xyz, proxy
