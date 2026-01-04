@@ -16,30 +16,30 @@ host-keyword, push.apple.com, direct
 # > 苹果时间同步
 host, time.apple.com, direct
 # > 苹果天气服务
-host-keyword, weather-edge.apple.com, direct
-host-keyword, weather-adge.apple.com, direct
-host-suffix, weather-data.apple.com, direct
-host-suffix, weather-map.apple.com, direct
-host-suffix, weather-analytics-events.apple.com, direct
+host-keyword,weather-edge.apple.com,direct
+host-keyword,weather-adge.apple.com,direct
+host-suffix,weather-data.apple.com,direct
+host-suffix,weather-map.apple.com,direct
+host-suffix,weather-analytics-events.apple.com,direct
 # > 苹果内购服务
 host-keyword, buy.itunes.apple.com, direct
 # > 苹果icloud
-host-keyword, icloud.com, direct
+host-keyword,icloud.com,direct
 # > 苹果输入法相关服务
-host-keyword, api.smoot.apple.com, direct
-host-keyword, api.smoot.apple.cn, direct
+host-keyword,api.smoot.apple.com,direct
+host-keyword,api.smoot.apple.cn,direct
 # > 苹果iMessage服务
 host, init.ess.apple.com, direct
 # > 苹果其他服务
-host-keyword, ssl.apple.com, direct
-host-keyword, humb.apple.com, direct
-host, smp-device-content.apple.com, direct
-host-keyword, api-adservices.apple.com, direct
-host-keyword, ls.apple.com, direct
-host-keyword, gsa.apple.com, direct
-host-keyword, ess.apple.com, direct
+host-keyword,ssl.apple.com,direct
+host-keyword,humb.apple.com,direct
+host,smp-device-content.apple.com,direct
+host-keyword,api-adservices.apple.com,direct
+host-keyword,ls.apple.com,direct
+host-keyword,gsa.apple.com,direct
+host-keyword,ess.apple.com,direct
 # > 苹果app store
-host, itunes.apple.com, direct
+host,itunes.apple.com,direct
 
 # talkatone
 host,inner-active.mobi,direct
@@ -59,14 +59,14 @@ ip-cidr,63.251.124.0/24,direct
 
 # > 国网脚本分流
 
-DOMAIN-KEYWORD, yuheng, direct
-DOMAIN-KEYWORD, yqc-premium, direct
+DOMAIN-KEYWORD,yuheng,direct
+DOMAIN-KEYWORD,yqc-premium,direct
 
 # > hotmail 邮箱分流
-host-wildcard, *.microsoft.com, direct
-host, *.microsoftonline.com, direct
-host-wildcard, *.icloud.com, direct
-host-wildcard, *.hotmail.com, direct
+host-wildcard,*.microsoft.com,direct
+host,*.microsoftonline.com,direct
+host-wildcard,*.icloud.com,direct
+host-wildcard, *.hotmail.com,direct
 host-wildcard,*.mail.me.com,direct
 host-wildcard,*.live.com,direct
 
@@ -80,8 +80,8 @@ HOST-SUFFIX,cib.com.cn,direct
 
 # > 新版抖音本地分流
 
-host-suffix, snssdk.com,direct
-host-suffix, amemv.com,direct
+host-suffix,snssdk.com,direct
+host-suffix,amemv.com,direct
 
 # >支付宝
 
@@ -89,7 +89,7 @@ host,mgw.alipay.com,direct
 
 # >阿里云盘 
 
-host-wildcard, *.vryunpan.cc,direct
+host-wildcard,*.vryunpan.cc,direct
 
 # >小米刷步
 
@@ -97,25 +97,25 @@ host,bs.svv.ink,direct
 
 # > QQ空间
 
-host-keyword, ctc.qzs.qzone.qq.com, direct
+host-keyword,ctc.qzs.qzone.qq.com,direct
 
 # > 路由器后台
 
-ip-cidr, 192.168.0.1/24, direct
+ip-cidr,192.168.0.1/24,direct
 
 # > 移动网关
 
-ip-cidr, 192.168.1.1/24, direct
-ip-cidr, 192.168.2.1/24, direct
-ip-cidr, 192.168.3.1/24, direct
-ip-cidr, 192.168.5.1/24, direct
-ip-cidr, 192.168.0.0/16, direct
-ip-cidr, 10.0.0.0/8, direct
-ip-cidr, 172.16.0.0/12, direct
-ip-cidr, 127.0.0.0/8, direct
-ip-cidr, 100.64.0.0/10, direct
-ip-cidr, 224.0.0.0/4, direct
-ip6-cidr, fe80::/10, direct
+ip-cidr,192.168.1.1/24,direct
+ip-cidr,192.168.2.1/24,direct
+ip-cidr,192.168.3.1/24,direct
+ip-cidr,192.168.5.1/24,direct
+ip-cidr,192.168.0.0/16,direct
+ip-cidr,10.0.0.0/8, direct
+ip-cidr,172.16.0.0/12,direct
+ip-cidr,127.0.0.0/8,direct
+ip-cidr,100.64.0.0/10,direct
+ip-cidr,224.0.0.0/4,direct
+ip6-cidr,fe80::/10,direct
 
 # > 央视频
 
@@ -124,49 +124,48 @@ host, outlivecloud-cdn.ysp.cctv.cn, direct
 
 # > 其他分流修正
 
-host-wildcard, *.evyccjk.cc, direct
-host, pwa1.yibzdjo.cc, direct
-host, hbbdylib.wepush.top, direct
-host, kms.cx, direct
-host, yg.one, direct
-host, web.freecloud.ltd, direct
-host, convertio.co, direct
-host, etempmail.com, direct
-user-agent, *.750319.xyz, direct
-host-wildcard, *.750319.xyz, direct
-host, havoc.app, direct
-host, kkb.9901158.xyz, direct
-host-wildcard,*.cloudflare.com, direct
-host, privacy.aiuys.com, direct
-host, cloudflare-cn.com, direct
-host-wildcard, *.run.claw.cloud, direct
-host, fastly.jsdelivr.net, direct
-host-wildcard, *.pages.dev, direct
-host-wildcard, *.serv00.net, direct
-host-wildcard, *.kuxingtianxia.ip-ddns.com, direct
-host, apis.bilin.eu.org, direct
-host, appstore.bilin.eu.org, direct
-host-wildcard, *.us.kg, direct
-host-wildcard, *.us.kg, direct
-host, assets.heimuer.tv, direct
-host, api.paoyun.eu.org, direct
-host, aktv.top, direct
-host, v2h.jdshipin.com, direct
-host, geolocation.onetrust.com, direct
-host-wildcard, *.cloudflareinsights.com, direct
-host-wildcard, *.cloudflare.com, direct
-host-wildcard, *.chen168.us.kg, direct
-host, flynb.site, direct
-host, kuxingtianxia.us.kg, direct
-host, mirror.ghproxy.com, direct
-host, fastly.jsdelivr.net, direct
-host, gsp64-ssl.ls.apple.com, direct
+host-wildcard,*.evyccjk.cc,direct
+host,pwa1.yibzdjo.cc,direct
+host,hbbdylib.wepush.top,direct
+host,kms.cx,direct
+host,yg.one,direct
+host,web.freecloud.ltd,direct
+host,convertio.co,direct
+host,etempmail.com,direct
+user-agent,*.750319.xyz,direct
+host-wildcard,*.750319.xyz,direct
+host,havoc.app,direct
+host,kkb.9901158.xyz,direct
+host-wildcard,*.cloudflare.com,direct
+host,privacy.aiuys.com,direct
+host,cloudflare-cn.com,direct
+host-wildcard, *.run.claw.cloud,direct
+host,fastly.jsdelivr.net,direct
+host-wildcard,*.pages.dev,direct
+host-wildcard,*.serv00.net,direct
+host-wildcard,*.kuxingtianxia.ip-ddns.com,direct
+host, apis.bilin.eu.org,direct
+host,appstore.bilin.eu.org,direct
+host-wildcard,*.us.kg,direct
+host,assets.heimuer.tv,direct
+host,api.paoyun.eu.org,direct
+host,aktv.top,direct
+host,v2h.jdshipin.com,direct
+host,geolocation.onetrust.com,direct
+host-wildcard,*.cloudflareinsights.com,direct
+host-wildcard,*.cloudflare.com,direct
+host-wildcard,*.chen168.us.kg,direct
+host,flynb.site,direct
+host,kuxingtianxia.us.kg,direct
+host,mirror.ghproxy.com,direct
+host,fastly.jsdelivr.net,direct
+host,gsp64-ssl.ls.apple.com,direct
 host-suffix,lacal,direct
 host,sub.danhu.ml,direct
 host-suffix,javfc2.xyz,direct
 host-keyword, anti-ad.net, direct
-host, login.microsoftonline.com, direct
-host, ad.12306.cn, direct
+host,login.microsoftonline.com,direct
+host,ad.12306.cn,direct
 
 
 
