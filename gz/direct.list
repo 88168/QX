@@ -124,6 +124,7 @@ host, outlivecloud-cdn.ysp.cctv.cn, direct
 
 # > 其他分流修正
 
+host-wildcard,*.jzj9999.com,direct
 host-wildcard,*.evyccjk.cc,direct
 host,pwa1.yibzdjo.cc,direct
 host,hbbdylib.wepush.top,direct
