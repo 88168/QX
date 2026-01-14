@@ -252,25 +252,20 @@ USER-AGENT,mytv*,proxy
 HOST,sub-store.vercel.app,proxy
 HOST-SUFFIX,is.gd,proxy
 host, amemv.com, proxy
-HOST-SUFFIX,750319.xyz,proxy
-host, host.750319.xyz, proxy
-host, dyj.750319.xyz, proxy
-host, cf.750319.xyz, proxy
-host, gh.750319.xyz, proxy
 host,xingba222.com,proxy
 host, 988.tianxiakuxing.workers.dev, proxy
-host, yg.vless.750319.xyz, proxy
-host, zd.750319.xyz, proxy
-USER-AGENT,*.workers.dev, proxy
-host-wildcard, *.tianxiakuxing.workers.dev, proxy
-USER-AGENT, *.pages.dev, proxy
-host, am-3bp.pages.dev, proxy
+HOST-SUFFIX,workers.dev, proxy
+HOST-SUFFIX,pages.dev, proxy
+# USER-AGENT,*.workers.dev, proxy
+# host-wildcard, *.tianxiakuxing.workers.dev, proxy
+# USER-AGENT, *.pages.dev, proxy
+# host, am-3bp.pages.dev, proxy
 host, kuxingge.serv00.net, proxy
 host-wildcard, *.chen168.ggff.net, proxy
-host-wildcard, *.chen168.workers.dev, proxy
-host, 457c987c.kuxingtianxia.pages.dev, proxy
+# host-wildcard, *.chen168.workers.dev, proxy
+# host, 457c987c.kuxingtianxia.pages.dev, proxy
 host,cloudflare.com, proxy
-host,kuxingtianxia.pages.dev, proxy
+# host,kuxingtianxia.pages.dev, proxy
 host,kuxingtianxia.us.kg, proxy
 host, dash.infinityfree.com, proxy
 host,sliverkiss.free.hr, proxy
