@@ -252,6 +252,7 @@ USER-AGENT,mytv*,proxy
 HOST,sub-store.vercel.app,proxy
 HOST-SUFFIX,is.gd,proxy
 host, amemv.com, proxy
+HOST-SUFFIX,750319.xyz,proxy
 host, host.750319.xyz, proxy
 host, dyj.750319.xyz, proxy
 host, cf.750319.xyz, proxy
