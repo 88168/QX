@@ -1,7 +1,7 @@
 ﻿################################################################
 # 分流作用：修正某些网站需要代理才能打开
 
-# 更新时间：2026.01.14
+# 更新时间：2026.01.17
 # 策略选择：代理 proty
 
 # > talkatone
@@ -249,12 +249,12 @@ USER-AGENT,mytv*,proxy
 
 # > 其它修正
 
-host-wildcard, *.tradingview, proxy
+
 HOST,sub-store.vercel.app,proxy
 HOST-SUFFIX,is.gd,proxy
 host, amemv.com, proxy
 host,xingba222.com,proxy
-
+HOST-SUFFIX,tradingview.com,proxy
 HOST-SUFFIX,workers.dev, proxy
 HOST-SUFFIX,pages.dev, proxy
 USER-AGENT,*.workers.dev, proxy
