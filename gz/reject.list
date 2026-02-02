@@ -1,7 +1,7 @@
 ################################################################
 # 分流作用：去广告，修正某些自用分流
 
-# 更新时间：2026.1.28
+# 更新时间：2026.2.2
 # 策略选择：拒绝 reject
 
 # > "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,ads.google.com, reject
 DOMAIN-SUFFIX,googlesyndication.com, reject
 DOMAIN-SUFFIX,adservice.google.com, reject
 DOMAIN-SUFFIX,doubleclick.net, reject
-DOMAIN-SUFFIX,baidu.com, reject, force-policy=reject
+DOMAIN-SUFFIX,baidu.com, reject
 DOMAIN-SUFFIX,baidustatic.com, reject
 DOMAIN-SUFFIX,bdstatic.com, reject
 DOMAIN-SUFFIX,union.baidu.com, reject
