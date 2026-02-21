@@ -31,7 +31,6 @@ host,netflav.com,proxy
  host,testflight.apple.com,proty 
  
  # > fileball  
-
  host,aliyun.example.com,proty
 
 # > Google Voice
@@ -169,6 +168,7 @@ USER-AGENT,YouTubeMusic*,proxy
 USER-AGENT,com.google.ios.youtubemusic*,proxy
 
 #Twitter
+host, x.com, proxy
 HOST-SUFFIX,ads-twitter.com,proxy
 HOST-SUFFIX,periscope.tv,proxy
 HOST-SUFFIX,pscp.tv,proxy
