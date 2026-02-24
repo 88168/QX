@@ -1,7 +1,7 @@
 ﻿################################################################
 # 分流作用：修正某些网站需要代理才能打开
 
-# 更新时间：2026.02.2
+# 更新时间：2026.02.24
 # 策略选择：代理 proty
 
 # > talkatone
@@ -168,6 +168,8 @@ USER-AGENT,YouTubeMusic*,proxy
 USER-AGENT,com.google.ios.youtubemusic*,proxy
 
 #Twitter
+
+host, grok.com, proxy
 host, x.com, proxy
 HOST-SUFFIX,ads-twitter.com,proxy
 HOST-SUFFIX,periscope.tv,proxy
