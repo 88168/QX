@@ -100,19 +100,6 @@ host-suffix, new.xiongzhangad.com, reject
 host-suffix, alexametrics.com, reject
 host-keyword, in-page-push, reject
 
-# > 17173（网络游戏门户网站）
-host-suffix, ad.17173.com, reject 
-host-suffix, cvda.17173.com, reject 
-host-suffix, log1.17173.com, reject 
-host-suffix, vda.17173.com, reject 
-host-suffix, s.17173cdn.com, reject 
-
-
-# > 1905电影网
-host-suffix, mlog.m1905.cn, reject
-host-suffix, vodlog.m1905.cn, reject
-host-suffix, afp.m1905.com, reject
-host-suffix, counter.m1905.com, reject
 
 
 # > 2345网址导航
@@ -128,41 +115,7 @@ host-suffix, tg.jifen.2345.com, reject
 host-suffix, update.minipage.2345.com, reject
 host-suffix, g.wan.2345.com, reject
 
-# > 360
-host-suffix, pjogndc8ixoidna.360doc.cn, reject
-host-suffix, w5sac788c1.360doc.cn, reject
-host-suffix, 360shopping.com.cn, reject
-host-suffix, cps.360buy.com, reject
-host-suffix, eclick.360doc.com, reject
-host-suffix, ad.360in.com, reject
-host-suffix, dl.360safe.com, reject
-host-suffix, kuaikan.netmon.360safe.com, reject
-host-suffix, ini.update.360safe.com, reject
-host-suffix, display.360totalsecurity.com, reject
-host-suffix, hot.m.shouji.360tpcdn.com, reject
-host-suffix, ad.360yield.com, reject
-host-suffix, guess.h.qhimg.com, reject
-host-suffix, top.h.qhimg.com, reject
-host-suffix, jspassport.ssl.qhimg.com, reject
-host-suffix, top.h.qhmsg.com, reject
-host-suffix, hs.qhupdate.com, reject
-host-suffix, res.qhupdate.com, reject
-host-suffix, s.qhupdate.com, reject
-host-suffix, haostat.qihoo.com, reject
-host-suffix, sh.qihoo.com, reject
-host-suffix, s.sh.qihoo.com, reject
-host-suffix, spro.so.com, reject
-host-suffix, mbrowser.news.so.com, reject
-host-suffix, tran.news.so.com, reject
 
-# > 365日历
-host-suffix, ad.365rili.com, reject
-
-# > 39健康网
-host-suffix, app-g.39.net, reject 
-host-suffix, d.39.net, reject 
-host-suffix, dpvc.39.net, reject 
-host-suffix, thetestpage.39.net, reject 
 
 # > 58同城
 host, track.58.com, reject
@@ -183,10 +136,6 @@ host-suffix, tracklog.58.com, reject
 host-suffix, zzpush.58.com, reject
 host-suffix, jump.luna.58.com, reject
 
-
-# > 58汽车
-host-suffix, 58.xgo.com.cn, reject
-host-suffix, imp.xgo.com.cn, reject
 
 # > Adobe
 host-suffix, 3dns-2.adobe.com, reject 
@@ -215,17 +164,6 @@ host-suffix, lmlicenses.wip4.adobe.com, reject
 # > Adobe Flash China Special Edition
 host, geo2.adobe.com, reject
 
-
-# 安全浏览限制解除
-host, lookup.api.bsb.baidu.com, reject
-host, proxy.safebrowsing.apple, reject
-host, safebrowsing.g.applimg.com, reject
-host, safebrowsing.googleapis.com, reject
-host, safebrowsing.urlsec.qq.com, reject
-host, token.safebrowsing.apple, reject
-host, vs6.bj2ct.u3.ucweb.com, reject
-host-suffix, safebrowsing.apple, reject
-host-suffix, u3.ucweb.com, reject
 
 # > Amazon
 host-suffix, amazon-adsystem.com, reject
