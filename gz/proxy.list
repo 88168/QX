@@ -251,6 +251,8 @@ USER-AGENT,mytv*,proxy
 
 # > 其它修正
 
+host, api.avgle.com, proxy
+host-suffix, x.com, proxy
 host, yckceo.com, proxy
 HOST,sub-store.vercel.app,proxy
 HOST-SUFFIX,is.gd,proxy
