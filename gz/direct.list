@@ -142,6 +142,7 @@ host, outlivecloud-cdn.ysp.cctv.cn, direct
 
 # > 其他分流修正
 
+host, cookieodd.com, direct
 host, ios.cfw.guide，direct
 host, yfamilys.com，direct
 host, whatshub.top，direct
