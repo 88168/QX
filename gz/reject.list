@@ -244,9 +244,9 @@ host, wxsmsdy.video.qq.com, REJECT
 host, wxsnsdythumb.wxs.qq.com, REJECT
 
 # 微信禁止热更新
-host,dl.wechat.com, reject
-host,dldir1.qq.com, reject
-host,dldir1v6.qq.com, reject
+# host,dl.wechat.com, reject
+# host,dldir1.qq.com, reject
+# host,dldir1v6.qq.com, reject
 
 # 芒果🥭app去启动页
 host, mobile.da.mgtv.com, reject
