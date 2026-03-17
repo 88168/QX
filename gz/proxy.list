@@ -251,6 +251,11 @@ USER-AGENT,mytv*,proxy
 
 # > 其它修正
 
+host, creative.xlivrdr.com, proxy
+host, a.clarity.ms, proxy
+host, www.sex.com, proxy
+host, vin.dynalias.com, proxy
+host, tv.iill.top, proxy
 host, api.avgle.com, proxy
 host-suffix, x.com, proxy
 host, yckceo.com, proxy
