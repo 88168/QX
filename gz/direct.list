@@ -142,6 +142,12 @@ host, outlivecloud-cdn.ysp.cctv.cn, direct
 
 # > 其他分流修正
 
+host, sp1.baidu.com, direct
+host, receiptcheck.quantumult.app, direct
+host, msg2.mql5.com, direct
+host, gwt2.mql5.com, direct
+host, metatraderweb.app, direct
+host, comate.baidu.com, direct
 host, cookieodd.com, direct
 host, ios.cfw.guide，direct
 host, yfamilys.com，direct
