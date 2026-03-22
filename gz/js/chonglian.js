@@ -1,21 +1,24 @@
 /**
- * Quantumult X 自动重连/网络打断脚本
- * 触发条件：网络环境切换 (event-network)
+ * Quantumult X 假死重连脚本
+ * 逻辑：发起一个轻量级请求测试网络，若失败则触发策略重置
  */
 
-const network = $network;
-const ipv4 = network.v4;
-const ssid = ipv4 ? ipv4.ssid : null;
+const testUrl = "http://www.apple.com/generate_204";
+const timeout = 3000; // 3秒超时判定为假死
 
-if (!ipv4 || (!ssid && !ipv4.primaryInterface)) {
-    // 此时完全没有网络（既无Wi-Fi也无蜂窝）
-    $notify("网络异常", "检测到连接已断开", "请检查路由器或移动数据信号");
-    $done({error: "Disconnected"});
-} else {
-    // 网络存在但可能假死，执行静默打断
-    const status = ssid ? `Wi-Fi: ${ssid}` : "蜂窝移动数据";
-    console.log(`[网络重连] 当前环境: ${status}，正在优化连接...`);
-    
-    // 核心逻辑：通过返回空结果或错误码强制 QX 重新建立握手
-    $done({});
-}
+$task.fetch({ url: testUrl, timeout: timeout }).then(
+    response => {
+        // 网络正常
+        console.log("网络连接正常 (HTTP 204)");
+        $done({});
+    },
+    reason => {
+        // 网络假死或无法连接
+        $notify("网络重连预警", "检测到连接假死", "正在执行打断并强制重置...");
+        console.log("网络探测失败: " + reason.error);
+        
+        // 执行“假关停”：通过返回错误强迫 QX 重新握手
+        // 配合 event-network 触发时效果更佳
+        $done({ error: "Force reconnecting due to hang..." });
+    }
+);
