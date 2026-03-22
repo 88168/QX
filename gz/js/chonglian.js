@@ -1,24 +1,17 @@
 /**
- * Quantumult X 假死重连脚本
- * 逻辑：发起一个轻量级请求测试网络，若失败则触发策略重置
+ * 提取金价历史数据脚本
+ * 匹配链接: ^https?:\/\/api\.weimili\.com\/api\/v1\/goods\/get_history
  */
 
-const testUrl = "http://www.apple.com/generate_204";
-const timeout = 3000; // 3秒超时判定为假死
-
-$task.fetch({ url: testUrl, timeout: timeout }).then(
-    response => {
-        // 网络正常
-        console.log("网络连接正常 (HTTP 204)");
-        $done({});
-    },
-    reason => {
-        // 网络假死或无法连接
-        $notify("网络重连预警", "检测到连接假死", "正在执行打断并强制重置...");
-        console.log("网络探测失败: " + reason.error);
+if ($response.body) {
+    let obj = JSON.parse($response.body);
+    if (obj.data && obj.data.list) {
+        let history = obj.data.list.slice(0, 5); // 取最近5天
+        let message = history.map(item => {
+            return `📅 ${item.date}\n💰 收盘: ${item.close} | 涨跌: ${item.change_amount}\n📈 高: ${item.high} | 低: ${item.low}`;
+        }).join('\n' + '-'.repeat(20) + '\n');
         
-        // 执行“假关停”：通过返回错误强迫 QX 重新握手
-        // 配合 event-network 触发时效果更佳
-        $done({ error: "Force reconnecting due to hang..." });
+        $notify("今日金价历史数据", "最新行情提取成功", message);
     }
-);
+}
+$done({});
