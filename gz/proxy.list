@@ -251,6 +251,8 @@ USER-AGENT,mytv*,proxy
 
 # > 其它修正
 
+host, content.finteza.com, proxy
+host-wildcard, *.mql5.com, proxy
 host, creative.xlivrdr.com, proxy
 host, a.clarity.ms, proxy
 host, www.sex.com, proxy
