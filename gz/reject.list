@@ -146,6 +146,13 @@ host-suffix, tracklog.58.com, reject
 host-suffix, zzpush.58.com, reject
 host-suffix, jump.luna.58.com, reject
 
+# 萤石视频
+
+host-keyword, ads.ezviz7.com, reject
+host, ad.ezviz7.com, reject
+host, log.ezviz7.com, reject
+host, stat.ezviz7.com, reject
+host, i.ys7.com, reject
 
 # > Adobe
 host-suffix, 3dns-2.adobe.com, reject 
