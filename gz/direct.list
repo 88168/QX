@@ -1,7 +1,7 @@
 ﻿################################################################
 # 分流作用：修正某些被分流到外面的国内网站
 
-# 更新时间：2026.2.28
+# 更新时间：2026.05.04
 # 策略选择：直连 direct
 
 # > "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
@@ -40,7 +40,7 @@ host-keyword,gsa.apple.com,direct
 host-keyword,ess.apple.com,direct
 # > 苹果app store
 host,itunes.apple.com,direct
-
+host, testflight.apple.com, direct
 # talkatone
 host,inner-active.mobi,direct
 host,mobilefuse.com,direct
