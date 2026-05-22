@@ -1,7 +1,7 @@
 ﻿################################################################
 # 分流作用：修正某些网站需要代理才能打开
 
-# 更新时间：2026.05.04
+# 更新时间：2026.05.23
 # 策略选择：代理 proty
 
 # > talkatone
@@ -12,6 +12,12 @@ host,nnsp.xyz,proty
 host,netflav.com,proxy
 
 # > 泥视频 +  
+host, v2.papapa.biz, proxy
+host, tp.family4k.com, proxy
+host, v2.cdn199.com, proxy
+host, v2.xiaoshuo.la, proxy
+host, tm.family4k.com, proxy
+host, porntube.cool, proxy
  host,xingba222.com,proxy
  host-wildcard,*.mudvod.tv,proty
  host-wildcard,*.nivod.tv,proty  
