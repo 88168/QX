@@ -1,7 +1,7 @@
 ﻿################################################################
 # 分流作用：修正某些网站需要代理才能打开
 
-# 更新时间：2026.05.23
+# 更新时间：2026.07.3
 # 策略选择：代理 proty
 
 # > talkatone
@@ -257,6 +257,7 @@ USER-AGENT,mytv*,proxy
 
 # > 其它修正
 
+host, annas-archive.org, proxy
 host, whos.tv, proxy
 host, content.finteza.com, proxy
 host-wildcard, *.mql5.com, proxy
