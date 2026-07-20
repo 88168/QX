@@ -141,7 +141,8 @@ host-wildcard, *.ysp.cctv.cn, direct
 host, outlivecloud-cdn.ysp.cctv.cn, direct
 
 # > 其他分流修正
-
+host-wildcard, cdn.qd.je, direct
+host-wildcard, cdn6.cc.cd, direct
 host-keyword, ikuuu, direct
 host, ddgksf2013.top, direct
 host, sp1.baidu.com, direct
