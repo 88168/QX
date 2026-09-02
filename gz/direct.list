@@ -116,6 +116,9 @@ host,bs.svv.ink,direct
 # > QQ空间
 
 host-keyword,ctc.qzs.qzone.qq.com,direct
+# > 萤石云
+HOST-SUFFIX, ys7.com, DIRECT
+HOST-SUFFIX, ezvizlife.com, DIRECT
 
 # > 路由器后台
 
