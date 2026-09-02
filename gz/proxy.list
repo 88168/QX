@@ -257,6 +257,7 @@ USER-AGENT,mytv*,proxy
 
 # > 其它修正
 
+host, cmegroup.com, proxy
 host, annas-archive.org, proxy
 host, whos.tv, proxy
 host, content.finteza.com, proxy
