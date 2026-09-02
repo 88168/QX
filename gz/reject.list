@@ -148,6 +148,7 @@ host-suffix, jump.luna.58.com, reject
 
 # 萤石视频
 
+HOST, adsec.ys7.com, reject
 host-keyword, ads.ezviz7.com, reject
 host, ad.ezviz7.com, reject
 host, log.ezviz7.com, reject
